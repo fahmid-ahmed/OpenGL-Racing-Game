@@ -63,7 +63,9 @@ Check the current game implementation for the supported controls and document th
 
 ## 📸 Screenshots
 
-Screenshots of the game will be added here to demonstrate the graphics and gameplay.
+### Gameplay
+
+![OpenGL Racing Game gameplay](images/racing-game.png)
 
 ## 🗺️ Future Improvements
 
