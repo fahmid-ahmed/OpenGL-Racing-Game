@@ -1,45 +1,81 @@
-# OpenGL Racing Game
+# 🏎️ OpenGL Racing Game
 
-A 3D racing game developed in C++ using OpenGL.
+A 3D racing game developed in **C++ using OpenGL**. This project explores real-time graphics, rendering, and interactive gameplay.
 
-## Technologies Used
+## 📌 About the Project
 
-- C++
-- OpenGL
-- GLFW
-- GLM
-- CMake
+OpenGL Racing Game is a graphics programming project focused on building a racing experience using C++. The repository contains the source code and CMake configuration needed to build the project.
 
-## Features
+## ✨ Features
 
-- 3D graphics
-- Real-time keyboard controls
+- 3D graphics using OpenGL
+- Real-time keyboard interaction
 - Racing gameplay
+- C++ application structure
+- CMake-based build system
 
-## Requirements
+## 🛠️ Technologies
 
-- C++ compiler
+- **Language:** C++
+- **Graphics API:** OpenGL
+- **Window and input library:** GLFW
+- **Mathematics library:** GLM
+- **Build system:** CMake
+
+## 💻 Requirements
+
+Before building, make sure you have:
+
+- A C++ compiler
 - CMake 3.20 or later
+- OpenGL support
 - GLFW
 - GLM
-- OpenGL
 
-## Build and Run
+The required libraries must be installed and discoverable by CMake.
 
-Clone the repository:
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
     git clone https://github.com/fahmid-ahmed/OpenGL-Racing-Game.git
     cd OpenGL-Racing-Game
 
-Build the project:
+### 2. Configure the project
 
     cmake -S . -B build
+
+### 3. Build the project
+
     cmake --build build
 
-Run the game on macOS:
+### 4. Run the game
+
+On macOS, if the executable is named RacingGame and is generated at the expected path:
 
     ./build/RacingGame
 
-## Author
+If the executable is elsewhere, check the build output and use its actual path.
 
-fahmid-ahmed
+## 🎮 Controls
+
+Check the current game implementation for the supported controls and document them here.
+
+## 📸 Screenshots
+
+Screenshots of the game will be added here to demonstrate the graphics and gameplay.
+
+## 🗺️ Future Improvements
+
+- Improve the 3D racing environment
+- Add more vehicles and track details
+- Enhance lighting and visual effects
+- Expand gameplay features
+
+## 👨‍💻 Author
+
+**fahmid-ahmed**
+
+## 📄 License
+
+A license has not yet been selected for this project.
