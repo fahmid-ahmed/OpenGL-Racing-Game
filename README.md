@@ -1,10 +1,6 @@
 # OpenGL Racing Game
 
-A 3D racing game built with C++ and OpenGL.
-
-## About
-
-This project is a racing game developed as a C++ graphics programming project using OpenGL.
+A 3D racing game developed in C++ using OpenGL.
 
 ## Technologies Used
 
@@ -22,36 +18,6 @@ This project is a racing game developed as a C++ graphics programming project us
 
 ## Requirements
 
-- A C++ compiler
-- CMake 3.20 or later
-- GLFW
-- GLM
-- OpenGL
-
-## Build and Run
-
-Clone the repository:
-
-```bash
-git clone https://github.com/fahmid-ahmed/OpenGL-Racing-Game.git
-cd OpenGL-Racing-Game
-
-cmake -S . -B build
-cat > README.md <<'EOF'
-# OpenGL Racing Game
-
-A 3D racing game built with C++ and OpenGL.
-
-## Technologies Used
-
-- C++
-- OpenGL
-- GLFW
-- GLM
-- CMake
-
-## Requirements
-
 - C++ compiler
 - CMake 3.20 or later
 - GLFW
@@ -65,12 +31,12 @@ Clone the repository:
     git clone https://github.com/fahmid-ahmed/OpenGL-Racing-Game.git
     cd OpenGL-Racing-Game
 
-Configure and build:
+Build the project:
 
     cmake -S . -B build
     cmake --build build
 
-Run on macOS:
+Run the game on macOS:
 
     ./build/RacingGame
 
