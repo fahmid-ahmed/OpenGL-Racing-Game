@@ -78,4 +78,4 @@ Screenshots of the game will be added here to demonstrate the graphics and gamep
 
 ## 📄 License
 
-A license has not yet been selected for this project.
+This project is licensed under the [MIT License](LICENSE).
